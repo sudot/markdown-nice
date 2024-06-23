@@ -104,10 +104,10 @@ export const addJuejinSuffix = () => {
 export const solveHtml = () => {
   const element = document.getElementById(BOX_ID);
 
-  const inner = element.children[0].children;
-  for (const item of inner) {
-    item.setAttribute("data-tool", "mdnice编辑器");
-  }
+  // const inner = element.children[0].children;
+  // for (const item of inner) {
+  //   item.setAttribute("data-tool", "mdnice编辑器");
+  // }
   let html = element.innerHTML;
   html = html.replace(/<mjx-container (class="inline.+?)<\/mjx-container>/g, "<span $1</span>");
   html = html.replace(/\s<span class="inline/g, '&nbsp;<span class="inline');

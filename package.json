@@ -238,5 +238,6 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "engines": { "npm": "~14.19.1" }
 }
