@@ -146,6 +146,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "engines": {
+    "node": ">=14 <=16"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -238,6 +241,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "engines": { "npm": "~14.19.1" }
+  }
 }
